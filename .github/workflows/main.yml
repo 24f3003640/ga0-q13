@@ -1,0 +1,11 @@
+name: booyah
+
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  run-hello:
+    runs-on: ubuntu-latest
+    steps:
+     - name: 24f3003640@ds.study.iitm.ac.in 
+       run: echo:"wsup autograder"
